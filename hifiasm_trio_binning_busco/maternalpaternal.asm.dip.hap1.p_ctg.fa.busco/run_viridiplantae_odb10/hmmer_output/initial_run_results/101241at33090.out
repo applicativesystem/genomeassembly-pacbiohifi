@@ -1,0 +1,22 @@
+#                                                                                     --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                 accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#         ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+h1tg000001l:15557417-15561534 -            433 101241at33090        -            338  1.8e-161  534.6   0.0   1   2   5.8e-97   2.6e-94  313.8   0.0     1   217     6   262     6   266 0.90 -
+h1tg000001l:15557417-15561534 -            433 101241at33090        -            338  1.8e-161  534.6   0.0   2   2   6.7e-68   3.1e-65  218.2   0.0   215   338   301   426   294   426 0.97 -
+h1tg000022l:5547145-5548715   -            344 101241at33090        -            338   2.1e-49  166.2   0.0   1   1   5.9e-52   2.7e-49  165.8   0.0    40   325    47   344    38   344 0.90 -
+h1tg000034l:1254880-1256223   -            355 101241at33090        -            338   2.3e-48  162.8   0.0   1   1   7.4e-51   3.4e-48  162.2   0.0    40   323    57   354    48   355 0.90 -
+h1tg000039l:49210-50684       -            343 101241at33090        -            338   3.4e-47  158.9   0.0   1   1   9.5e-50   4.3e-47  158.6   0.0    40   325    47   343    38   343 0.91 -
+h1tg000002l:2456611-2457716   -            333 101241at33090        -            338     1e-44  150.8   0.0   1   1   3.2e-47   1.4e-44  150.3   0.0    40   323    49   332    40   333 0.91 -
+h1tg000037l:2398727-2400055   -            332 101241at33090        -            338   1.9e-44  149.9   0.0   1   1   5.9e-47   2.7e-44  149.4   0.0    40   323    48   331    39   332 0.91 -
+h1tg000001l:19692227-19693312 -            333 101241at33090        -            338   8.7e-41  137.9   0.0   1   1   2.6e-43   1.2e-40  137.4   0.0    41   323    50   332    42   333 0.88 -
+h1tg000031l:25838572-25838958 -            129 101241at33090        -            338     6e-23   79.2   0.0   1   1   1.4e-25   6.5e-23   79.1   0.0   218   335     7   129     1   129 0.89 -
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/busco_downloads/lineages/viridiplantae_odb10/hmms/101241at33090.hmm
+# Target file:     /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap1.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/initial_results/maternalpaternal.asm.dip.hap1.p_ctg.fa.modified.fas
+# Option settings: hmmsearch --domtblout /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap1.p_ctg.fa.busco/run_viridiplantae_odb10/hmmer_output/initial_run_results/101241at33090.out --cpu 1 /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/busco_downloads/lineages/viridiplantae_odb10/hmms/101241at33090.hmm /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap1.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/initial_results/maternalpaternal.asm.dip.hap1.p_ctg.fa.modified.fas 
+# Current dir:     /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning
+# Date:            Thu Apr 18 11:10:06 2024
+# [ok]

@@ -1,0 +1,23 @@
+Assembly	ERR10930361ASM
+# contigs (>= 0 bp)	6817
+# contigs (>= 1000 bp)	6817
+# contigs (>= 5000 bp)	6815
+# contigs (>= 10000 bp)	6755
+# contigs (>= 25000 bp)	3042
+# contigs (>= 50000 bp)	1038
+Total length (>= 0 bp)	1059510029
+Total length (>= 1000 bp)	1059510029
+Total length (>= 5000 bp)	1059501897
+Total length (>= 10000 bp)	1058976901
+Total length (>= 25000 bp)	991675022
+Total length (>= 50000 bp)	927415659
+# contigs	6815
+Largest contig	18315859
+Total length	1059501897
+GC (%)	35.39
+N50	3839181
+N90	33049
+auN	4278745.2
+L50	84
+L90	1702
+# N's per 100 kbp	0.00

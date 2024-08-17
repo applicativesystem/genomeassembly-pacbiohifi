@@ -1,0 +1,448 @@
+Tmp /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp folder does not exist or is not a directory.
+Create dir /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp
+easy-predict --threads 32 /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/busco_downloads/lineages/viridiplantae_odb10/refseq_db.faa /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/initial_results/maternalpaternal.asm.dip.hap2.p_ctg.fa /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp --max-intron 90000 --max-seq-len 120000 --min-exon-aa 15 --max-overlap 15 --min-intron 5 --overlap 1 
+
+MMseqs Version:                                             	GITDIR-NOTFOUND
+Substitution matrix                                         	nucl:nucleotide.out,aa:blosum62.out
+Add backtrace                                               	false
+Alignment mode                                              	2
+Allow wrapped scoring                                       	false
+E-value threshold                                           	100
+Seq. id. threshold                                          	0
+Min alignment length                                        	0
+Seq. id. mode                                               	0
+Alternative alignments                                      	0
+Coverage threshold                                          	0
+Coverage mode                                               	0
+Max sequence length                                         	120000
+Compositional bias                                          	1
+Max reject                                                  	2147483647
+Max accept                                                  	2147483647
+Include identical seq. id.                                  	false
+Preload mode                                                	0
+Pseudo count a                                              	1
+Pseudo count b                                              	1.5
+Score bias                                                  	0
+Realign hits                                                	false
+Realign score bias                                          	-0.2
+Realign max seqs                                            	2147483647
+Gap open cost                                               	nucl:5,aa:11
+Gap extension cost                                          	nucl:2,aa:1
+Zdrop                                                       	40
+Threads                                                     	32
+Compressed                                                  	0
+Verbosity                                                   	3
+Seed substitution matrix                                    	nucl:nucleotide.out,aa:VTML80.out
+Sensitivity                                                 	4
+k-mer length                                                	0
+k-score                                                     	2147483647
+Alphabet size                                               	nucl:5,aa:21
+Max results per query                                       	300
+Split database                                              	0
+Split mode                                                  	2
+Split memory limit                                          	0
+Diagonal scoring                                            	true
+Exact k-mer matching                                        	0
+Mask residues                                               	1
+Mask lower case residues                                    	0
+Minimum diagonal score                                      	15
+Spaced k-mers                                               	1
+Spaced k-mer pattern                                        	
+Local temporary path                                        	
+Rescore mode                                                	0
+Remove hits by seq. id. and coverage                        	false
+Sort results                                                	0
+Mask profile                                                	1
+Profile E-value threshold                                   	0.001
+Global sequence weighting                                   	false
+Allow deletions                                             	false
+Filter MSA                                                  	1
+Maximum seq. id. threshold                                  	0.9
+Minimum seq. id.                                            	0
+Minimum score per column                                    	-20
+Minimum coverage                                            	0
+Select N most diverse seqs                                  	1000
+Min codons in orf                                           	15
+Max codons in length                                        	32734
+Max orf gaps                                                	2147483647
+Contig start mode                                           	2
+Contig end mode                                             	2
+Orf start mode                                              	1
+Forward frames                                              	1,2,3
+Reverse frames                                              	1,2,3
+Translation table                                           	1
+Translate orf                                               	0
+Use all table starts                                        	false
+Offset of numeric ids                                       	0
+Create lookup                                               	0
+Add orf stop                                                	false
+Chain overlapping alignments                                	0
+Merge query                                                 	1
+Search type                                                 	0
+Search iterations                                           	1
+Start sensitivity                                           	4
+Search steps                                                	1
+Slice search mode                                           	false
+Strand selection                                            	1
+LCA search mode                                             	false
+Disk space limit                                            	0
+MPI runner                                                  	
+Force restart with latest tmp                               	false
+Remove temporary files                                      	false
+maximal combined evalue of an optimal set                   	0.001
+minimal length ratio between combined optimal set and target	0.5
+Maximal intron length                                       	90000
+Minimal intron length                                       	5
+Minimal exon length aa                                      	15
+Maximal overlap of exons                                    	15
+Gap open penalty                                            	-1
+Gap extend penalty                                          	-1
+allow same-strand overlaps                                  	1
+translate codons to AAs                                     	0
+write target key instead of accession                       	0
+Reverse AA Fragments                                        	0
+
+createdb /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/contigs --dbtype 2 --compressed 0 -v 3 
+
+Converting sequences
+[
+Time for merging to contigs_h: 0h 0m 0s 104ms
+Time for merging to contigs: 0h 0m 0s 992ms
+Database type: Nucleotide
+Time for processing: 0h 0m 3s 196ms
+createdb /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/busco_downloads/lineages/viridiplantae_odb10/refseq_db.faa /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/targets --dbtype 1 --compressed 0 -v 3 
+
+Converting sequences
+[====
+Time for merging to targets_h: 0h 0m 0s 185ms
+Time for merging to targets: 0h 0m 0s 265ms
+Database type: Aminoacid
+Time for processing: 0h 0m 1s 162ms
+Tmp /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/tmp_predict folder does not exist or is not a directory.
+Create dir /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/tmp_predict
+predictexons /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/contigs /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/targets /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/MetaEuk_calls /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/tmp_predict --sub-mat nucl:nucleotide.out,aa:blosum62.out -a 0 --alignment-mode 2 --wrapped-scoring 0 -e 100 --min-seq-id 0 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 120000 --comp-bias-corr 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca 1 --pcb 1.5 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --gap-open nucl:5,aa:11 --gap-extend nucl:2,aa:1 --zdrop 40 --threads 32 --compressed 0 -v 3 --seed-sub-mat nucl:nucleotide.out,aa:VTML80.out -s 4 -k 0 --k-score 2147483647 --alph-size nucl:5,aa:21 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-lower-case 0 --min-ungapped-score 15 --spaced-kmer-mode 1 --rescore-mode 0 --filter-hits 0 --sort-results 0 --mask-profile 1 --e-profile 0.001 --wg 0 --allow-deletion 0 --filter-msa 1 --max-seq-id 0.9 --qid 0 --qsc -20 --cov 0 --diff 1000 --min-length 15 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 0 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --add-orf-stop 0 --chain-alignments 0 --merge-query 1 --search-type 0 --num-iterations 1 --start-sens 4 --sens-steps 1 --slice-search 0 --strand 1 --orf-filter 0 --orf-filter-e 100 --orf-filter-s 2 --lca-search 0 --disk-space-limit 0 --force-reuse 0 --remove-tmp-files 0 --metaeuk-eval 0.001 --metaeuk-tcov 0.5 --max-intron 90000 --min-intron 5 --min-exon-aa 15 --max-overlap 15 --set-gap-open -1 --set-gap-extend -1 --reverse-fragments 0 
+
+extractorfs /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/contigs /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/tmp_predict/3298612838263503927/nucl_6f --min-length 15 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 0 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --threads 32 --compressed 0 -v 3 
+
+[=================================================================] 116 1s 985ms
+Time for merging to nucl_6f_h: 0h 0m 45s 555ms
+Time for merging to nucl_6f: 0h 0m 51s 736ms
+Time for processing: 0h 2m 1s 502ms
+translatenucs /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/tmp_predict/3298612838263503927/nucl_6f /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/tmp_predict/3298612838263503927/aa_6f --translation-table 1 --add-orf-stop 0 -v 3 --compressed 0 --threads 32 
+
+[=================================================================] 21.71M 17s 413ms
+Time for merging to aa_6f: 0h 1m 7s 88ms
+Time for processing: 0h 1m 29s 218ms
+Tmp /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/tmp_predict/3298612838263503927/tmp_search folder does not exist or is not a directory.
+Create dir /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/tmp_predict/3298612838263503927/tmp_search
+search /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/tmp_predict/3298612838263503927/aa_6f /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/targets /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/tmp_predict/3298612838263503927/search_res /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/tmp_predict/3298612838263503927/tmp_search --sub-mat nucl:nucleotide.out,aa:blosum62.out -a 0 --alignment-mode 2 --wrapped-scoring 0 -e 100 --min-seq-id 0 --min-aln-len 15 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 120000 --comp-bias-corr 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca 1 --pcb 1.5 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --gap-open nucl:5,aa:11 --gap-extend nucl:2,aa:1 --zdrop 40 --threads 32 --compressed 0 -v 3 --seed-sub-mat nucl:nucleotide.out,aa:VTML80.out -s 4 -k 0 --k-score 2147483647 --alph-size nucl:5,aa:21 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-lower-case 0 --min-ungapped-score 15 --spaced-kmer-mode 1 --rescore-mode 0 --filter-hits 0 --sort-results 0 --mask-profile 1 --e-profile 0.001 --wg 0 --allow-deletion 0 --filter-msa 1 --max-seq-id 0.9 --qid 0 --qsc -20 --cov 0 --diff 1000 --min-length 15 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 0 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --add-orf-stop 0 --chain-alignments 0 --merge-query 1 --search-type 0 --num-iterations 1 --start-sens 4 --sens-steps 1 --slice-search 0 --strand 1 --orf-filter 0 --orf-filter-e 100 --orf-filter-s 2 --lca-search 0 --disk-space-limit 0 --force-reuse 0 --remove-tmp-files 0 
+
+prefilter /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/tmp_predict/3298612838263503927/aa_6f /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/targets /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/tmp_predict/3298612838263503927/tmp_search/895890584634433476/pref_0 --sub-mat nucl:nucleotide.out,aa:blosum62.out --seed-sub-mat nucl:nucleotide.out,aa:VTML80.out -k 0 --k-score 2147483647 --alph-size nucl:5,aa:21 --max-seq-len 120000 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 -c 0 --cov-mode 0 --comp-bias-corr 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-lower-case 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca 1 --pcb 1.5 --threads 32 --compressed 0 -v 3 -s 4.0 
+
+Query database size: 21705253 type: Aminoacid
+Estimated memory consumption: 1G
+Target database size: 49683 type: Aminoacid
+Index table k-mer threshold: 127 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 49.68K 0s 364ms
+Index table: Masked residues: 353948
+Index table: fill
+[=================================================================] 49.68K 0s 289ms
+Index statistics
+Entries:          23132652
+DB size:          620 MB
+Avg k-mer size:   0.361448
+Top 10 k-mers
+    LLGPGK	435
+    TGGTYL	394
+    SGTALP	342
+    YVRGAR	251
+    ISLAGR	198
+    RVRAGR	194
+    GGGSAV	191
+    AAGDGV	183
+    VPRLQV	170
+    GAAAVL	156
+Time for index table init: 0h 0m 1s 365ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 127
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 21705253
+Target db start 1 to 49683
+[=================================================================] 21.71M 2m 9s 807ms
+
+48.186069 k-mers per position
+372 DB matches per sequence
+0 overflows
+0 queries produce too many hits (truncated result)
+2 sequences passed prefiltering per query sequence
+1 median result list length
+10305303 sequences with 0 size result lists
+Time for merging to pref_0: 0h 1m 4s 32ms
+Time for processing: 0h 3m 41s 637ms
+align /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/tmp_predict/3298612838263503927/aa_6f /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/targets /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/tmp_predict/3298612838263503927/tmp_search/895890584634433476/pref_0 /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/tmp_predict/3298612838263503927/search_res --sub-mat nucl:nucleotide.out,aa:blosum62.out -a 0 --alignment-mode 2 --wrapped-scoring 0 -e 100 --min-seq-id 0 --min-aln-len 15 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 120000 --comp-bias-corr 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca 1 --pcb 1.5 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --gap-open nucl:5,aa:11 --gap-extend nucl:2,aa:1 --zdrop 40 --threads 32 --compressed 0 -v 3 
+
+Compute score and coverage
+Query database size: 21705253 type: Aminoacid
+Target database size: 49683 type: Aminoacid
+Calculation of alignments
+[=================================================================] 21.71M 1m 14s 629ms
+Time for merging to search_res: 0h 1m 3s 356ms
+45513164 alignments calculated
+3829355 sequence pairs passed the thresholds (0.084137 of overall calculated)
+0.176425 hits per query sequence
+Time for processing: 0h 2m 28s 529ms
+resultspercontig /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/contigs /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/tmp_predict/3298612838263503927/nucl_6f /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/tmp_predict/3298612838263503927/search_res /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/tmp_predict/3298612838263503927/search_res_by_contig --threads 32 --compressed 0 -v 3 
+
+Computing ORF lookup
+Computing contig offsets
+Computing contig lookup
+Time for contig lookup: 0h 0m 6s 991ms
+[=================================================================] 116 4s 272ms
+Time for merging to search_res_by_contig: 0h 0m 0s 57ms
+Time for processing: 0h 0m 19s 490ms
+collectoptimalset /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/tmp_predict/3298612838263503927/search_res_by_contig /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/targets /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/tmp_predict/3298612838263503927/dp_predictions --metaeuk-eval 0.001 --metaeuk-tcov 0.5 --max-intron 90000 --min-intron 5 --min-exon-aa 15 --max-overlap 15 --set-gap-open -1 --set-gap-extend -1 --score-bias 0 --threads 32 --compressed 0 -v 3 
+
+[=================================================================] 116 19s 827ms
+Time for merging to dp_predictions: 0h 0m 0s 53ms
+Time for processing: 0h 0m 20s 235ms
+mvdb /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/tmp_predict/3298612838263503927/dp_predictions /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/MetaEuk_calls 
+
+Time for processing: 0h 0m 0s 45ms
+reduceredundancy /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/MetaEuk_calls /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/MetaEuk_preds /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/MetaEuk_preds_clust --overlap 1 --threads 32 --compressed 0 -v 3 
+
+[=================================================================] 116 1s 692ms
+Time for merging to MetaEuk_preds_clust: 0h 0m 0s 50ms
+Time for merging to MetaEuk_preds: 0h 0m 0s 50ms
+Time for processing: 0h 0m 2s 486ms
+unitesetstofasta /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/contigs /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/targets /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/8745670709296874020/MetaEuk_preds /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/initial_results/maternalpaternal.asm.dip.hap2.p_ctg.fa --protein 0 --translation-table 1 --target-key 0 --threads 32 --compressed 0 -v 3 
+
+[=================================================================] 116 0s 897ms
+Time for merging to maternalpaternal.asm.dip.hap2.p_ctg.fa.fas: 0h 0m 0s 71ms
+Time for merging to maternalpaternal.asm.dip.hap2.p_ctg.fa.codon.fas: 0h 0m 0s 76ms
+Time for merging to maternalpaternal.asm.dip.hap2.p_ctg.fa.headersMap.tsv: 0h 0m 0s 69ms
+Time for processing: 0h 0m 1s 913ms
+easy-predict --threads 32 /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/refseq_db_rerun.faa /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/rerun_results/maternalpaternal.asm.dip.hap2.p_ctg.fa /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp --max-intron 90000 --max-seq-len 120000 --min-exon-aa 5 --max-overlap 5 --min-intron 1 --overlap 1 -s 6 
+
+MMseqs Version:                                             	GITDIR-NOTFOUND
+Substitution matrix                                         	nucl:nucleotide.out,aa:blosum62.out
+Add backtrace                                               	false
+Alignment mode                                              	2
+Allow wrapped scoring                                       	false
+E-value threshold                                           	100
+Seq. id. threshold                                          	0
+Min alignment length                                        	0
+Seq. id. mode                                               	0
+Alternative alignments                                      	0
+Coverage threshold                                          	0
+Coverage mode                                               	0
+Max sequence length                                         	120000
+Compositional bias                                          	1
+Max reject                                                  	2147483647
+Max accept                                                  	2147483647
+Include identical seq. id.                                  	false
+Preload mode                                                	0
+Pseudo count a                                              	1
+Pseudo count b                                              	1.5
+Score bias                                                  	0
+Realign hits                                                	false
+Realign score bias                                          	-0.2
+Realign max seqs                                            	2147483647
+Gap open cost                                               	nucl:5,aa:11
+Gap extension cost                                          	nucl:2,aa:1
+Zdrop                                                       	40
+Threads                                                     	32
+Compressed                                                  	0
+Verbosity                                                   	3
+Seed substitution matrix                                    	nucl:nucleotide.out,aa:VTML80.out
+Sensitivity                                                 	6
+k-mer length                                                	0
+k-score                                                     	2147483647
+Alphabet size                                               	nucl:5,aa:21
+Max results per query                                       	300
+Split database                                              	0
+Split mode                                                  	2
+Split memory limit                                          	0
+Diagonal scoring                                            	true
+Exact k-mer matching                                        	0
+Mask residues                                               	1
+Mask lower case residues                                    	0
+Minimum diagonal score                                      	15
+Spaced k-mers                                               	1
+Spaced k-mer pattern                                        	
+Local temporary path                                        	
+Rescore mode                                                	0
+Remove hits by seq. id. and coverage                        	false
+Sort results                                                	0
+Mask profile                                                	1
+Profile E-value threshold                                   	0.001
+Global sequence weighting                                   	false
+Allow deletions                                             	false
+Filter MSA                                                  	1
+Maximum seq. id. threshold                                  	0.9
+Minimum seq. id.                                            	0
+Minimum score per column                                    	-20
+Minimum coverage                                            	0
+Select N most diverse seqs                                  	1000
+Min codons in orf                                           	15
+Max codons in length                                        	32734
+Max orf gaps                                                	2147483647
+Contig start mode                                           	2
+Contig end mode                                             	2
+Orf start mode                                              	1
+Forward frames                                              	1,2,3
+Reverse frames                                              	1,2,3
+Translation table                                           	1
+Translate orf                                               	0
+Use all table starts                                        	false
+Offset of numeric ids                                       	0
+Create lookup                                               	0
+Add orf stop                                                	false
+Chain overlapping alignments                                	0
+Merge query                                                 	1
+Search type                                                 	0
+Search iterations                                           	1
+Start sensitivity                                           	4
+Search steps                                                	1
+Slice search mode                                           	false
+Strand selection                                            	1
+LCA search mode                                             	false
+Disk space limit                                            	0
+MPI runner                                                  	
+Force restart with latest tmp                               	false
+Remove temporary files                                      	false
+maximal combined evalue of an optimal set                   	0.001
+minimal length ratio between combined optimal set and target	0.5
+Maximal intron length                                       	90000
+Minimal intron length                                       	1
+Minimal exon length aa                                      	5
+Maximal overlap of exons                                    	5
+Gap open penalty                                            	-1
+Gap extend penalty                                          	-1
+allow same-strand overlaps                                  	1
+translate codons to AAs                                     	0
+write target key instead of accession                       	0
+Reverse AA Fragments                                        	0
+
+createdb /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/contigs --dbtype 2 --compressed 0 -v 3 
+
+Converting sequences
+[
+Time for merging to contigs_h: 0h 0m 0s 94ms
+Time for merging to contigs: 0h 0m 1s 128ms
+Database type: Nucleotide
+Time for processing: 0h 0m 4s 169ms
+createdb /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/refseq_db_rerun.faa /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/targets --dbtype 1 --compressed 0 -v 3 
+
+Converting sequences
+[
+Time for merging to targets_h: 0h 0m 0s 95ms
+Time for merging to targets: 0h 0m 0s 101ms
+Database type: Aminoacid
+Time for processing: 0h 0m 0s 406ms
+Tmp /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/tmp_predict folder does not exist or is not a directory.
+Create dir /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/tmp_predict
+predictexons /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/contigs /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/targets /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/MetaEuk_calls /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/tmp_predict --sub-mat nucl:nucleotide.out,aa:blosum62.out -a 0 --alignment-mode 2 --wrapped-scoring 0 -e 100 --min-seq-id 0 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 120000 --comp-bias-corr 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca 1 --pcb 1.5 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --gap-open nucl:5,aa:11 --gap-extend nucl:2,aa:1 --zdrop 40 --threads 32 --compressed 0 -v 3 --seed-sub-mat nucl:nucleotide.out,aa:VTML80.out -s 6 -k 0 --k-score 2147483647 --alph-size nucl:5,aa:21 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-lower-case 0 --min-ungapped-score 15 --spaced-kmer-mode 1 --rescore-mode 0 --filter-hits 0 --sort-results 0 --mask-profile 1 --e-profile 0.001 --wg 0 --allow-deletion 0 --filter-msa 1 --max-seq-id 0.9 --qid 0 --qsc -20 --cov 0 --diff 1000 --min-length 15 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 0 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --add-orf-stop 0 --chain-alignments 0 --merge-query 1 --search-type 0 --num-iterations 1 --start-sens 4 --sens-steps 1 --slice-search 0 --strand 1 --orf-filter 0 --orf-filter-e 100 --orf-filter-s 2 --lca-search 0 --disk-space-limit 0 --force-reuse 0 --remove-tmp-files 0 --metaeuk-eval 0.001 --metaeuk-tcov 0.5 --max-intron 90000 --min-intron 1 --min-exon-aa 5 --max-overlap 5 --set-gap-open -1 --set-gap-extend -1 --reverse-fragments 0 
+
+extractorfs /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/contigs /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/tmp_predict/10234145968446987625/nucl_6f --min-length 15 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 0 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --threads 32 --compressed 0 -v 3 
+
+[=================================================================] 116 2s 112ms
+Time for merging to nucl_6f_h: 0h 0m 48s 8ms
+Time for merging to nucl_6f: 0h 0m 56s 532ms
+Time for processing: 0h 2m 8s 651ms
+translatenucs /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/tmp_predict/10234145968446987625/nucl_6f /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/tmp_predict/10234145968446987625/aa_6f --translation-table 1 --add-orf-stop 0 -v 3 --compressed 0 --threads 32 
+
+[=================================================================] 21.71M 20s 519ms
+Time for merging to aa_6f: 0h 1m 8s 123ms
+Time for processing: 0h 1m 33s 369ms
+Tmp /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/tmp_predict/10234145968446987625/tmp_search folder does not exist or is not a directory.
+Create dir /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/tmp_predict/10234145968446987625/tmp_search
+search /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/tmp_predict/10234145968446987625/aa_6f /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/targets /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/tmp_predict/10234145968446987625/search_res /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/tmp_predict/10234145968446987625/tmp_search --sub-mat nucl:nucleotide.out,aa:blosum62.out -a 0 --alignment-mode 2 --wrapped-scoring 0 -e 100 --min-seq-id 0 --min-aln-len 5 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 120000 --comp-bias-corr 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca 1 --pcb 1.5 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --gap-open nucl:5,aa:11 --gap-extend nucl:2,aa:1 --zdrop 40 --threads 32 --compressed 0 -v 3 --seed-sub-mat nucl:nucleotide.out,aa:VTML80.out -s 6 -k 0 --k-score 2147483647 --alph-size nucl:5,aa:21 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-lower-case 0 --min-ungapped-score 15 --spaced-kmer-mode 1 --rescore-mode 0 --filter-hits 0 --sort-results 0 --mask-profile 1 --e-profile 0.001 --wg 0 --allow-deletion 0 --filter-msa 1 --max-seq-id 0.9 --qid 0 --qsc -20 --cov 0 --diff 1000 --min-length 15 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 0 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --add-orf-stop 0 --chain-alignments 0 --merge-query 1 --search-type 0 --num-iterations 1 --start-sens 4 --sens-steps 1 --slice-search 0 --strand 1 --orf-filter 0 --orf-filter-e 100 --orf-filter-s 2 --lca-search 0 --disk-space-limit 0 --force-reuse 0 --remove-tmp-files 0 
+
+prefilter /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/tmp_predict/10234145968446987625/aa_6f /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/targets /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/tmp_predict/10234145968446987625/tmp_search/3932561199790268437/pref_0 --sub-mat nucl:nucleotide.out,aa:blosum62.out --seed-sub-mat nucl:nucleotide.out,aa:VTML80.out -k 0 --k-score 2147483647 --alph-size nucl:5,aa:21 --max-seq-len 120000 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 -c 0 --cov-mode 0 --comp-bias-corr 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-lower-case 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca 1 --pcb 1.5 --threads 32 --compressed 0 -v 3 -s 6.0 
+
+Query database size: 21705253 type: Aminoacid
+Estimated memory consumption: 980M
+Target database size: 708 type: Aminoacid
+Index table k-mer threshold: 109 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 708 0s 20ms
+Index table: Masked residues: 10731
+Index table: fill
+[=================================================================] 708 0s 9ms
+Index statistics
+Entries:          190024
+DB size:          489 MB
+Avg k-mer size:   0.002969
+Top 10 k-mers
+    LSPQTR	105
+    PSDGDP	102
+    SPCPRQ	102
+    LLPCYT	100
+    WLSPPY	99
+    CFKYYV	93
+    FYGGRY	92
+    CCTSRY	91
+    RPYCKR	90
+    YSIGYS	90
+Time for index table init: 0h 0m 0s 677ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 109
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 21705253
+Target db start 1 to 708
+[=================================================================] 21.71M 7m 36s 343ms
+
+320.366641 k-mers per position
+23 DB matches per sequence
+0 overflows
+0 queries produce too many hits (truncated result)
+0 sequences passed prefiltering per query sequence
+0 median result list length
+19430041 sequences with 0 size result lists
+Time for merging to pref_0: 0h 1m 2s 985ms
+Time for processing: 0h 8m 52s 810ms
+align /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/tmp_predict/10234145968446987625/aa_6f /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/targets /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/tmp_predict/10234145968446987625/tmp_search/3932561199790268437/pref_0 /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/tmp_predict/10234145968446987625/search_res --sub-mat nucl:nucleotide.out,aa:blosum62.out -a 0 --alignment-mode 2 --wrapped-scoring 0 -e 100 --min-seq-id 0 --min-aln-len 5 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 120000 --comp-bias-corr 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca 1 --pcb 1.5 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --gap-open nucl:5,aa:11 --gap-extend nucl:2,aa:1 --zdrop 40 --threads 32 --compressed 0 -v 3 
+
+Compute score and coverage
+Query database size: 21705253 type: Aminoacid
+Target database size: 708 type: Aminoacid
+Calculation of alignments
+[=================================================================] 21.71M 8s 153ms
+Time for merging to search_res: 0h 1m 3s 384ms
+4253607 alignments calculated
+2547733 sequence pairs passed the thresholds (0.598958 of overall calculated)
+0.117379 hits per query sequence
+Time for processing: 0h 1m 20s 768ms
+resultspercontig /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/contigs /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/tmp_predict/10234145968446987625/nucl_6f /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/tmp_predict/10234145968446987625/search_res /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/tmp_predict/10234145968446987625/search_res_by_contig --threads 32 --compressed 0 -v 3 
+
+Computing ORF lookup
+Computing contig offsets
+Computing contig lookup
+Time for contig lookup: 0h 0m 8s 57ms
+[=================================================================] 116 2s 618ms
+Time for merging to search_res_by_contig: 0h 0m 0s 56ms
+Time for processing: 0h 0m 19s 465ms
+collectoptimalset /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/tmp_predict/10234145968446987625/search_res_by_contig /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/targets /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/tmp_predict/10234145968446987625/dp_predictions --metaeuk-eval 0.001 --metaeuk-tcov 0.5 --max-intron 90000 --min-intron 1 --min-exon-aa 5 --max-overlap 5 --set-gap-open -1 --set-gap-extend -1 --score-bias 0 --threads 32 --compressed 0 -v 3 
+
+[=================================================================] 116 10s 684ms
+Time for merging to dp_predictions: 0h 0m 0s 51ms
+Time for processing: 0h 0m 11s 120ms
+mvdb /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/tmp_predict/10234145968446987625/dp_predictions /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/MetaEuk_calls 
+
+Time for processing: 0h 0m 0s 39ms
+reduceredundancy /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/MetaEuk_calls /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/MetaEuk_preds /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/MetaEuk_preds_clust --overlap 1 --threads 32 --compressed 0 -v 3 
+
+[=================================================================] 116 0s 24ms
+Time for merging to MetaEuk_preds_clust: 0h 0m 0s 48ms
+Time for merging to MetaEuk_preds: 0h 0m 0s 51ms
+Time for processing: 0h 0m 0s 743ms
+unitesetstofasta /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/contigs /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/targets /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/tmp/1871638531936579004/MetaEuk_preds /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/rerun_results/maternalpaternal.asm.dip.hap2.p_ctg.fa --protein 0 --translation-table 1 --target-key 0 --threads 32 --compressed 0 -v 3 
+
+[=================================================================] 116 0s 243ms
+Time for merging to maternalpaternal.asm.dip.hap2.p_ctg.fa.fas: 0h 0m 0s 70ms
+Time for merging to maternalpaternal.asm.dip.hap2.p_ctg.fa.codon.fas: 0h 0m 0s 68ms
+Time for merging to maternalpaternal.asm.dip.hap2.p_ctg.fa.headersMap.tsv: 0h 0m 0s 71ms
+Time for processing: 0h 0m 1s 87ms

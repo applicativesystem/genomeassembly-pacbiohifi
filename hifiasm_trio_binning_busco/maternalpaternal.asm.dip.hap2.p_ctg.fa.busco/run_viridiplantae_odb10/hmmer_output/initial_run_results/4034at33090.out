@@ -1,0 +1,18 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+h2tg000015l:4604824-4680606 -           1405 4034at33090          -           1031         0 1487.5  27.5   1   5     2e-41     6e-38  127.8   0.0     1   110     1   124     1   149 0.86 -
+h2tg000015l:4604824-4680606 -           1405 4034at33090          -           1031         0 1487.5  27.5   2   5         0         0 1181.0   0.0   123   776   169   869   128   877 0.94 -
+h2tg000015l:4604824-4680606 -           1405 4034at33090          -           1031         0 1487.5  27.5   3   5   1.9e-35   5.7e-32  108.0   0.0   780   892   919  1047   910  1067 0.86 -
+h2tg000015l:4604824-4680606 -           1405 4034at33090          -           1031         0 1487.5  27.5   4   5   6.9e-16   2.1e-12   43.2   5.2   888   976  1099  1214  1088  1221 0.73 -
+h2tg000015l:4604824-4680606 -           1405 4034at33090          -           1031         0 1487.5  27.5   5   5   1.2e-10   3.8e-07   25.8  16.2   969  1029  1260  1322  1218  1324 0.68 -
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/busco_downloads/lineages/viridiplantae_odb10/hmms/4034at33090.hmm
+# Target file:     /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/initial_results/maternalpaternal.asm.dip.hap2.p_ctg.fa.modified.fas
+# Option settings: hmmsearch --domtblout /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/hmmer_output/initial_run_results/4034at33090.out --cpu 1 /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/busco_downloads/lineages/viridiplantae_odb10/hmms/4034at33090.hmm /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning/maternalpaternal.asm.dip.hap2.p_ctg.fa.busco/run_viridiplantae_odb10/metaeuk_output/initial_results/maternalpaternal.asm.dip.hap2.p_ctg.fa.modified.fas 
+# Current dir:     /work/sablok/grapevineassemblies/assemblyhifiasm/busco_hifiasmtriobinning
+# Date:            Thu Apr 18 11:36:27 2024
+# [ok]

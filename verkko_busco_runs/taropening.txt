@@ -1,0 +1,5 @@
+# to open the archive run this command 
+
+```
+tar cjf archivename
+```

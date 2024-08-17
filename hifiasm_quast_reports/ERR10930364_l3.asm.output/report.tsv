@@ -1,0 +1,23 @@
+Assembly	ERR10930364_l3.asm
+# contigs (>= 0 bp)	312
+# contigs (>= 1000 bp)	312
+# contigs (>= 5000 bp)	312
+# contigs (>= 10000 bp)	312
+# contigs (>= 25000 bp)	296
+# contigs (>= 50000 bp)	208
+Total length (>= 0 bp)	502562147
+Total length (>= 1000 bp)	502562147
+Total length (>= 5000 bp)	502562147
+Total length (>= 10000 bp)	502562147
+Total length (>= 25000 bp)	502219353
+Total length (>= 50000 bp)	498750125
+# contigs	312
+Largest contig	31313116
+Total length	502562147
+GC (%)	35.49
+N50	14478159
+N90	4243119
+auN	15585393.7
+L50	12
+L90	34
+# N's per 100 kbp	0.00
