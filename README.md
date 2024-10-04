@@ -16,10 +16,10 @@
 #### Genome Analysis and Project Summary
 - The project is loated at the following links given below:
    <img src="https://github.com/gauravcodepro/genomeassembly-robusta/blob/main/publication_ready_figure.png" alt="image" width="400" height="auto">
-- Project parameters: [Project parameters](https://github.com/gauravcodepro/genomeassembly-robusta/blob/main/projectparameters.md) 
-- Genome assembly summary: [Summary evaluation](https://github.com/gauravcodepro/genomeassembly-robusta/blob/main/summarystats.md) 
-- Reference evaluation: [Reference evaluation](https://github.com/gauravcodepro/genomeassembly-robusta/blob/main/referenceevaluation.md) 
-- Installation and configuration: [Installation](https://github.com/gauravcodepro/genomeassembly-robusta/blob/main/installation.md) 
+- Project parameters: [Project parameters](https://github.com/codecreatede/genomeassembly-pacbiohifi/blob/main/projectparameters.md) 
+- Genome assembly summary: [Summary evaluation](https://github.com/codecreatede/genomeassembly-pacbiohifi/blob/main/summarystats.md) 
+- Reference evaluation: [Reference evaluation](https://github.com/codecreatede/genomeassembly-pacbiohifi/blob/main/referenceevaluation.md) 
+- Installation and configuration: [Installation](https://github.com/codecreatede/genomeassembly-pacbiohifi/blob/main/installation.md) 
 
 <img src="https://github.com/gauravcodepro/genomeassembly-robusta/blob/main/reading/read_count.png" alt="image" width="500" height="auto" align = "center">
 <img src="https://github.com/gauravcodepro/genomeassembly-robusta/blob/main/reading/assembly_quality.png" alt="image" width="500" height="auto" align = "center">
